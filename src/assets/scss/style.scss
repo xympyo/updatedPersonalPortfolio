@@ -1,0 +1,163 @@
+@import "mixins/banner";
+@include bsBanner("");
+
+// scss-docs-start import-stack
+// Configuration
+@import "functions";
+@import "variables";
+@import "variables-dark";
+@import "maps";
+@import "mixins";
+@import "utilities";
+
+// Layout & components
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "containers";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "accordion";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "alert";
+@import "progress";
+@import "list-group";
+@import "close";
+@import "toasts";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "spinners";
+@import "offcanvas";
+@import "placeholders";
+
+// Helpers
+@import "helpers";
+
+// Utilities
+@import "utilities/api";
+// scss-docs-end import-stack
+
+*,
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+html {
+  background-color: #282828;
+}
+
+.aboutImgLg {
+  display: none;
+}
+.aboutImgDk {
+  display: none;
+}
+.heroImageLg {
+  display: none;
+}
+.heroImageDk {
+  display: none;
+}
+
+#light {
+  background-color: #f2f1f2;
+  color: #040404;
+}
+#light .heroImageLg {
+  display: block;
+}
+#light .aboutImgLg {
+  display: block;
+}
+#light html {
+  background-color: #f5f5f5;
+}
+
+#dark {
+  background-color: #040404;
+  color: #f2f1f2;
+  &main,
+  *,
+  body {
+    background-color: #040404;
+    color: #f2f1f2;
+  }
+}
+#dark .heroImageDk {
+  display: block;
+}
+#dark .aboutImgDk {
+  display: block;
+}
+#dark html {
+  background-color: #040404;
+}
+#dark hr {
+  color: #95a1f9;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  pointer-events: none;
+  color: $primary;
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.designportfolio-img {
+  transition: transform 0.2s;
+  transition-timing-function: ease-out;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.websiteproject-img {
+  transition: transform 0.3s;
+  transition-timing-function: ease-in-out;
+  &:hover {
+    transform: scale(1.025);
+  }
+}
+
+.contactme-btn {
+  transition: transform 0.2s;
+  transition-timing-function: ease-in-out;
+  font-size: 16px;
+  background-color: $primary;
+  color: $secondary;
+  padding: 8px 21px 8px 21px;
+  margin-top: 80px;
+  &:hover {
+    transform: scale(1.2);
+    color: $secondary;
+    background-color: $primary;
+  }
+}

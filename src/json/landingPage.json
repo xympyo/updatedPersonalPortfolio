@@ -1,0 +1,119 @@
+{
+  "items": [
+    {
+      "id": "JH8Jz4M8g5S6",
+      "imageUrl": "/images/feedInstagram1.png",
+      "linkToImg": "https://www.instagram.com/p/CuFhcizScnN/"
+    },
+    {
+      "id": "JH8Jz4M8g5S6",
+      "imageUrl": "/images/feedInstagram2.png",
+      "linkToImg": "https://www.instagram.com/p/CveSFt6v5l_/"
+    },
+    {
+      "id": "JH8Jz4M8g5S6",
+      "imageUrl": "/images/feedInstagram3.png",
+      "linkToImg": "https://www.instagram.com/p/Cs87jg9v1n6/"
+    },
+    {
+      "id": "JH8Jz4M8g5S6",
+      "imageUrl": "/images/feedInstagram4.png",
+      "linkToImg": "https://www.instagram.com/p/Cwm9GKSvzRq/"
+    },
+    {
+      "id": "JH8Jz4M8g5S6",
+      "imageUrl": "/images/feedInstagram5.png",
+      "linkToImg": "https://www.instagram.com/p/Cu6IfFdPnrA/"
+    },
+    {
+      "id": "JH8Jz4M8g5S6",
+      "imageUrl": "/images/feedInstagram6.png",
+      "linkToImg": "https://www.instagram.com/p/CvLqHQHPuR0/"
+    },
+    {
+      "id": "JH8Jz4M8g5S6",
+      "imageUrl": "/images/feedInstagram7.png",
+      "linkToImg": "https://www.instagram.com/p/CupE8g3P5dc/"
+    },
+    {
+      "id": "JH8Jz4M8g5S6",
+      "imageUrl": "/images/feedInstagram8.png",
+      "linkToImg": "https://www.instagram.com/p/CtOzPtUPFPq/"
+    },
+    {
+      "id": "JH8Jz4M8g5S6",
+      "imageUrl": "/images/feedInstagram9.png",
+      "linkToImg": "https://www.instagram.com/p/Ctv6RHiv-sF/"
+    },
+    {
+      "id": "JH8Jz4M8g5S6",
+      "imageUrl": "/images/feedInstagram10.png",
+      "linkToImg": "https://www.instagram.com/p/CvwYy5tP5SH/"
+    }
+  ],
+  "pamphletShowcase": [
+    {
+      "pamphlet": "/images/pamphletShowcase.png"
+    }
+  ],
+  "pamphletPiece": [
+    {
+      "pieces": "/images/pamphlet1.png"
+    },
+    {
+      "pieces": "/images/pamphlet2.png"
+    },
+    {
+      "pieces": "/images/pamphlet3.png"
+    },
+    {
+      "pieces": "/images/pamphlet4.png"
+    },
+    {
+      "pieces": "/images/pamphlet5.png"
+    },
+    {
+      "pieces": "/images/pamphlet6.png"
+    },
+    {
+      "pieces": "/images/pamphlet7.png"
+    },
+    {
+      "pieces": "/images/pamphlet8.png"
+    },
+    {
+      "pieces": "/images/pamphlet9.png"
+    },
+    {
+      "pieces": "/images/pamphlet10.png"
+    },
+    {
+      "pieces": "/images/pamphlet11.png"
+    },
+    {
+      "pieces": "/images/pamphlet12.png"
+    },
+    {
+      "pieces": "/images/pamphlet13.png"
+    },
+    {
+      "pieces": "/images/pamphlet14.png"
+    },
+    {
+      "pieces": "/images/pamphlet15.png"
+    }
+  ],
+  "banner": [
+    {
+      "imageUrl": "/images/Banner1.png"
+    },
+    {
+      "imageUrl": "/images/Banner2.png"
+    }
+  ],
+  "websiteProject": [
+    {
+      "imageUrl": "/images/webProject.png"
+    }
+  ]
+}

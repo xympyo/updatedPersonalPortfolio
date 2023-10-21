@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, createContext } from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import ReactSwitch from "react-switch";
+
+import LandingPage from "./Pages/LandingPage";
+
+import "../src/assets/scss/style.scss";
+
+export const ThemeContext = React.createContext();
 
 function App() {
+  const [theme, setTheme] = useState("light");
+
+  const toggleTheme = () => {
+    console.log("asdasd");
+    setTheme((curr) => (curr === "light" ? "dark" : "light"));
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeContext.Provider value={{ theme, toggleTheme }}>
+      <div className={`App ${theme}`} id={theme}>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" Component={LandingPage} />
+          </Routes>
+        </BrowserRouter>
+      </div>
+    </ThemeContext.Provider>
   );
 }
 
