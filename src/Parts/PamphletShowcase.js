@@ -15,24 +15,36 @@ export default function PamphletShowcase({ pamphletData, pamphletPieceData }) {
         <div className="row">
           <div className="col-lg-6">
             {pamphletData.map((pamphletItem, index) => (
-              <div className="col-lg-12 col-sm-12" key={index}>
-                <img
-                  className="img-fluid rounded-4"
-                  src={pamphletItem.pamphlet}
-                  alt={`Pamphlet ${index}`}
-                />
+              <div
+                className="col-lg-12 col-sm-12  d-flex justify-content-center justify-content-lg-start"
+                key={index}
+              >
+                <a
+                  target="_blank"
+                  type="link"
+                  href="https://www.instagram.com/gngrtt_/"
+                >
+                  <img
+                    className="img-fluid rounded-4"
+                    src={pamphletItem.pamphlet}
+                    alt="Full Pamphlet"
+                  />
+                </a>
               </div>
             ))}
           </div>
           <div className="col-lg-6 col-sm-12">
             <div className="row">
               {pamphletPieceData.map((item, index) => (
-                <div className="col-lg-4 col-sm-12" key={index}>
+                <div
+                  className="col-lg-4 col-sm-12  d-none d-lg-block"
+                  key={index}
+                >
                   <div style={{ margin: "4px 0px 4px 0px" }}>
                     <Fade bottom delay={100 * index}>
                       <a className="card border-0" target="_blank">
                         <img
-                          className="rounded-2"
+                          className="pamphletpieces rounded-2"
                           src={item.pieces}
                           alt={`Image ${index}`}
                         />

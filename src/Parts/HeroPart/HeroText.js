@@ -34,6 +34,7 @@ export default function HeroText() {
           worth of Personal Project Experience
         </p>
         <p
+          className="text-end text-lg-start"
           style={{
             fontSize: "14px",
             fontWeight: "400",

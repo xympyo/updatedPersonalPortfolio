@@ -15,14 +15,15 @@ export default function WebsiteProject({ data }) {
         {data.map((item, index) => (
           <div className="col-lg-6 col-sm-12" key={index}>
             <div style={{ marginTop: "20px" }}>
+              {" "}
               <Fade bottom delay={100 * index}>
                 <a
                   className="card border-0"
-                  href="https://project-youth.netlify.app/"
+                  href={item.webHref}
                   target="_blank"
                 >
                   <img
-                    className="websiteproject-img rounded-4"
+                    className="websiteproject-img rounded-3"
                     src={item.imageUrl}
                     alt={`Image ${index}`}
                   />

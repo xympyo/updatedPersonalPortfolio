@@ -13,6 +13,7 @@ export default function RightSideSkills() {
       <div className="d-flex flex-column justify-content-end">
         <div style={{ margin: "20px 0px 0px 0px" }}>
           <h1
+            className="text-start text-lg-end"
             style={{ fontSize: "24px", fontWeight: "500", textAlign: "right" }}
           >
             Web Development Skills
@@ -57,8 +58,8 @@ export default function RightSideSkills() {
                 CSS 3
               </h1>
               <p style={{ margin: "0px" }}>
-                Around 2.5 year of Experience with CSS 3, did not really go so
-                deeply to becoming expert at CSS Animation.
+                Around 2.5 year of Experience with CSS 3, like it when I
+                understand it.
               </p>
             </div>
           </div>
@@ -139,7 +140,7 @@ export default function RightSideSkills() {
           className="d-flex flex-row align-items-center"
           style={{ margin: "12px 0px 0px 0px" }}
         >
-          <img src={GitHubIcon} />
+          <img src={GitHubIcon} alt="GitHub Icon" />
           <div className="d-flex flex-column">
             <div style={{ margin: "0px 0px 0px 12px" }}>
               <h1

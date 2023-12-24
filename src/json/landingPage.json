@@ -54,6 +54,12 @@
   "pamphletShowcase": [
     {
       "pamphlet": "/images/pamphletShowcase.png"
+    },
+    {
+      "pamphlet": "/images/gailxmsheFeed1.png"
+    },
+    {
+      "pamphlet": "/images/gailxmsheFeed2.png"
     }
   ],
   "pamphletPiece": [
@@ -113,7 +119,20 @@
   ],
   "websiteProject": [
     {
+      "webHref": "https://project-youth.netlify.app",
       "imageUrl": "/images/webProject.png"
+    },
+    {
+      "webHref": "https://converse-webproj2.netlify.app",
+      "imageUrl": "/images/webProject1.png"
+    },
+    {
+      "webHref": "https://bondargolimited.com",
+      "imageUrl": "/images/webProject2.png"
+    },
+    {
+      "webHref": "https://rndm-offical.netlify.app",
+      "imageUrl": "/images/webProject3.png"
     }
   ]
 }

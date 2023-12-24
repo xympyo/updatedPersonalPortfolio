@@ -19,7 +19,7 @@ export default function LeftSideSkills() {
           className="d-flex flex-row align-items-center"
           style={{ margin: "12px 0px 0px 0px" }}
         >
-          <img src={PhotoshopIcon} />
+          <img src={PhotoshopIcon} alt="Photoshop Icon" />
           <div className="d-flex flex-column">
             <div style={{ margin: "0px 0px 0px 12px" }}>
               <h1
@@ -41,7 +41,7 @@ export default function LeftSideSkills() {
           className="d-flex flex-row align-items-center"
           style={{ margin: "12px 0px 0px 0px" }}
         >
-          <img src={IllustratorIcon} />
+          <img src={IllustratorIcon} alt="Illustrator Icon" />
           <div className="d-flex flex-column">
             <div style={{ margin: "0px 0px 0px 12px" }}>
               <h1
@@ -64,7 +64,7 @@ export default function LeftSideSkills() {
           className="d-flex flex-row align-items-center"
           style={{ margin: "12px 0px 0px 0px" }}
         >
-          <img src={CanvaIcon} />
+          <img src={CanvaIcon} alt="Canva Icon" />
           <div className="d-flex flex-column">
             <div style={{ margin: "0px 0px 0px 12px" }}>
               <h1
@@ -87,7 +87,7 @@ export default function LeftSideSkills() {
           className="d-flex flex-row align-items-center"
           style={{ margin: "12px 0px 0px 0px" }}
         >
-          <img src={CorelDrawIcon} />
+          <img src={CorelDrawIcon} alt="CorelDraw Icon" />
           <div className="d-flex flex-column">
             <div style={{ margin: "0px 0px 0px 12px" }}>
               <h1
@@ -115,7 +115,7 @@ export default function LeftSideSkills() {
           className="d-flex flex-row align-items-center"
           style={{ margin: "12px 0px 0px 0px" }}
         >
-          <img src={JavaIcon} />
+          <img src={JavaIcon} className="Java Icon" />
           <div className="d-flex flex-column">
             <div style={{ margin: "0px 0px 0px 12px" }}>
               <h1
@@ -129,7 +129,7 @@ export default function LeftSideSkills() {
               </h1>
               <p style={{ margin: "0px" }}>
                 Around 2 months of Indepth Experience with Java Programming
-                Language from Programming Concept Subject.
+                Language from Programming and Algorithm Class Subject.
               </p>
             </div>
           </div>

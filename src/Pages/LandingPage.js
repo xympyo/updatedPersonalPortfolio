@@ -25,10 +25,10 @@ export default class LandingPage extends Component {
         <Hero />
         <MySkills />
         <PortfolioShowcase data={landingPage.items} />
-        <PamphletShowcase
+        {/* <PamphletShowcase
           pamphletData={landingPage.pamphletShowcase}
           pamphletPieceData={landingPage.pamphletPiece}
-        />
+        /> */}
         <BannerProject data={landingPage.banner} />
         <WebsiteProject data={landingPage.websiteProject} />
         <AboutMe />
